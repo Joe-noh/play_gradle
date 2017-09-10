@@ -1,4 +1,5 @@
-task hello {
+task hello() {
+  description "say hello"
   doLast {
     println "Hello!"
   }
