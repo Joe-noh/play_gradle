@@ -12,6 +12,14 @@ buildscript {
   }
 }
 
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile "org.jetbrains.kotlin:kotlin-stdlib"
+}
+
 task hello() {
   description "say hello"
   doLast {
