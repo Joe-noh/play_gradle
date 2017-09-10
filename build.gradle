@@ -23,6 +23,10 @@ dependencies {
   compile "org.jetbrains.kotlin:kotlin-stdlib"
 }
 
+task wrapper(type: Wrapper) {
+  gradleVersion = "4.1"
+}
+
 task hello() {
   description "say hello"
   doLast {
